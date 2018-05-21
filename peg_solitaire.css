@@ -1,0 +1,84 @@
+@font-face{
+  font-family:special;
+  src:url("20db.otf");
+}
+h1{
+  text-align:center;
+  font-family:special;
+}
+#menubar{
+  background-color:yellow;
+  border-radius:2em;
+  box-shadow: 0em 0.2em silver;
+  color:black;
+  float:left;
+  width:15%;
+  height:30px;
+  }
+#menubar:hover,#menubar:focus{
+  background-color:rgb(255,255,200);
+  height:35px;
+}
+
+a{
+  float:left;
+  text-align:center;
+  width:15%;
+  background-color:red;
+  border-radius:2em;
+  box-shadow:0em 0.2em silver;
+  height:30px;
+}
+a:hover,a:focus{
+  background-color:rgb(255,100,100);
+  height:35px;
+}
+
+td{
+  width:90px;
+  height:65px;
+}
+
+.parts{
+  background-color:black;
+}
+.parts:hover,.parts:focus{
+  background-color:grey;
+}
+.unfilled{
+  background-color:red;
+}
+.unfilled:hover,.unfilled:focus{
+  background-color:maroon;
+}
+body{
+  background:linear-gradient(180deg,rgb(0,255,255),rgb(255,255,255));
+
+}
+
+#result{
+  float:right;
+  background-color:green;
+  border-radius:2em;
+  box-shadow:0em 0.2em silver;
+  width:200px;
+}
+#result:hover,#result:focus{
+  background-color:rgb(200,255,200);
+}
+#declare_result{
+  float:right;
+  text-align:center;
+  width:200px;
+  color:black;
+  height:100px;
+}
+#master{
+  background-color:rgb(204,51,255);
+  height:25px;
+  border-radius:0.6em;
+  height:30px;
+}
+#table{
+  width:800px;
+}
